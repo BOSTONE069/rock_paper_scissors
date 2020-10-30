@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-content">
+            <div id="game-display">
+                <h1>Rock-Paper-Scissors</h1>
+                <h2 id="round-text">Round 1</h2>
+                <div id="score-display">
+                    <span id="point1" class="score-counter"></span>
+                    <span id="point2" class="score-counter"></span>
+                    <span id="point3" class="score-counter"></span>
+                    <span id="point4" class="score-counter"></span>
+                    <span id="point5" class="score-counter"></span>
+                </div>
+                <div class="move-text-container">
+                    <p class="move-text" id="player-move-text">Make your move.</p>
+                    <p class="move-text" id="computer-move-text">It's best of 5.</p>
+                    <p id="result-text">Good luck!</p>
+                </div>
+                
+            </div>
+            
+            <div id="move-selection">
+                <button id="rock" class="default-button">Rock</button>
+                <button id="paper" class="default-button">Paper</button>
+                <button id="scissors" class="default-button">Scissors</button>
+            </div>
+            <div id="game-end-screen">
+                <p id="end-text">You win!</p>
+                <button id="reset-button" class="default-button">Play Again</button>
+            </div>
+        </div>
+        
+    </body>
+    <script src="script.js"></script>
+</html>

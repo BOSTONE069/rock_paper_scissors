@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+    background-size: 100% 1.5em;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: -1rem;
+}
+
+#round-text {
+    color: gray;
+}
+
+.move-text-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.move-text {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#result-text {
+    font-weight: bold;
+}
+
+.main-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-counter {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 0.5rem;
+    background-color: rgb(216, 216, 216);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#move-selection {
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-button {
+    font-family: 'Poppins', sans-serif;
+    margin: 0.75rem;
+    min-width: 8rem;
+    min-height: 2.2rem;
+    border-radius: 1.1rem;
+    border: solid gray 2px;
+    font-size: 1.3rem;
+    color: rgb(77, 77, 77);
+}
+
+.default-button:hover {
+    background-color: white;
+}
+
+.default-button:focus {
+    border: solid gray 2px;
+    outline: none;
+}
+
+#game-end-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+    margin-top: -12rem;
+}
+
+#end-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: -0.3rem;
+    margin-top: 0rem;
+}
